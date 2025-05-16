@@ -4,7 +4,7 @@
 
 
 <h1> Virtual Private Network (VPNs) Setup and Usage (Proton VPN) </h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial provides a practical guide to setting up and using a VPN, and demonstrates how to test your VPN connection using a remote desktop from Microsoft Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -14,11 +14,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
+- Your PC
 
-<h2>List of Prerequisites</h2>
+<h2>High-Level Steps</h2>
 
 - Setup a Resource Group and a Virtual Machine in Azure.
-- Install the osTicket requirements.
-- Install osTicket itself.
+- ...
+- ...
 
-<h2>Installation Steps</h2>
+<h2>Actions and Observations</h2>
