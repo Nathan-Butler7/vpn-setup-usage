@@ -79,18 +79,29 @@ Virtual Machines:
 
 ![image](https://github.com/user-attachments/assets/1d262933-4de4-443a-82fa-b6e6f42943bd)
 
+3. Log into the VM with Remote Desktop
+
+- On your PC, click the Windows 'start' icon to open up the menu and search up "Remote Desktop Connection".
+- If using Mac, install Microsoft Remote Desktop.
+- Copy windows VM Public IP address and paste it into the Remote Desktop Connection.
+- Click 'Show Options' and put in the user name for the windows VM (labuser).
+- Click 'connect'.
+- Insert the password then click 'ok'.
+- Click 'Yes' to continue.
+
+![Screenshot 2025-05-17 123635](https://github.com/user-attachments/assets/e82c2fe9-0147-4432-b4d3-63c3e58bf99b)
+
+- Browse to https://whatismyipaddress.com/ and take note of this in a text file.
+
+![image](https://github.com/user-attachments/assets/b455529b-22b2-4ecb-b253-34254c42702b)
+
+(Sign up for ProtonVPN and test the VPN connection)
+
+4. On your actual computer, sign up for the free version of Proton VPN https://account.protonvpn.com/signup?plan=free&language=en
+
 -------------------------------------------
 -------------------------------------------
 
-(Create Virtual Machine in Azure)
-
-2. Create a Resource Group
-
-3. Create a Windows 10 Virtual Machine in another geographic location (try a different country)
-
-- Log into the VM with Remote Desktop
-
-- Browse to https://whatismyipaddress.com/ and take note of this in a text file
 
 (Sign up for ProtonVPN and test the VPN connection)
 
