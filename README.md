@@ -158,5 +158,10 @@ Click 'Download for Windows' and it will open a bar. Click 'Windows 11/10 (x64)'
 
 ![image](https://github.com/user-attachments/assets/b8c8a39d-fe22-4565-8e8d-1445873a2082)
 
+--------
+
+What using a VPN looks like in a real scenario.
+
+![Screenshot 2025-05-20 144203](https://github.com/user-attachments/assets/7a9a9666-f442-407c-8b31-542e55d9ca87)
 
 
