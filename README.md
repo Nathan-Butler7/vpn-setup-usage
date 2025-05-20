@@ -1,6 +1,7 @@
 <p align="center">
-<img src="https://github.com/user-attachments/assets/67a34103-8826-42bc-a2e2-6ddf762208b7" alt="VPN" width="700"
+<img src="https://github.com/user-attachments/assets/9ca476c5-ce2c-4da4-a4c5-25e5fd9e098e" alt="VPN" width="700"
 </p>
+
 
 
 <h1> Virtual Private Network (VPNs) Setup and Usage (Proton VPN) </h1>
@@ -18,17 +19,21 @@ This tutorial provides a practical guide to setting up and using a VPN, and demo
 
 <h2>High-Level Steps</h2>
 
-- Setup a Resource Group and a Virtual Machine in Azure.
-- ...
-- ...
+- What is my IP adress?
+- Creating Resource Groups and Virtual Machines.
+- Log into the VM with Remote Desktop.
+- Sign up for ProtonVPN and test the VPN connection.
+- Download the Proton VPN client.
+- Changed IP address location.
 
 <h2>Actions and Observations</h2>
 
-1. Browse to https://whatismyipaddress.com/ FROM WITHIN YOUR OWN MACHINE and take note of this in a text file.
+1. What is my IP address?
+Browse to https://whatismyipaddress.com/ FROM WITHIN YOUR OWN MACHINE and take note of this in a text file.
 
 ![image](https://github.com/user-attachments/assets/0100cd42-5f6e-42a3-ab57-4aa16c8c7be4)
 
-2. Creating Resource Groups and Virtual Machines
+2. Creating Resource Groups and Virtual Machines.
 Resource Group:
 
 - To create a Resource Group, go to the Azure Portal. In the middle of the homepage under 'Azure Services', click on 'Resource groups' and then select 'Create' to begin the process'.
@@ -79,7 +84,7 @@ Virtual Machines:
 
 ![image](https://github.com/user-attachments/assets/1d262933-4de4-443a-82fa-b6e6f42943bd)
 
-3. Log into the VM with Remote Desktop
+3. Log into the VM with Remote Desktop.
 
 - On your PC, click the Windows 'start' icon to open up the menu and search up "Remote Desktop Connection".
 - If using Mac, install Microsoft Remote Desktop.
@@ -95,22 +100,63 @@ Virtual Machines:
 
 ![image](https://github.com/user-attachments/assets/b455529b-22b2-4ecb-b253-34254c42702b)
 
-(Sign up for ProtonVPN and test the VPN connection)
+4. Sign up for ProtonVPN and test the VPN connection.
 
-4. On your actual computer, sign up for the free version of Proton VPN https://account.protonvpn.com/signup?plan=free&language=en
+- We're going to create a VPN tunnel from our VM to a VPN server.
+- On your VM, sign up for the free version of Proton VPN https://account.protonvpn.com/signup?plan=free&language=en.
 
--------------------------------------------
--------------------------------------------
+![image](https://github.com/user-attachments/assets/7a692631-eb78-4add-8df5-e522402c13a2)
+
+5. Download the Proton VPN client.
+
+- On the website, navigate to to the sidebar and click 'Downloads'.
+
+![image](https://github.com/user-attachments/assets/12cf12be-cbd8-4f14-bb86-dab231bf707b)
+
+- Click 'Download' for Windows.
+
+![image](https://github.com/user-attachments/assets/db06bfec-dfdc-4109-8436-7d42171f66fa)
+
+Click 'Download for Windows' and it will open a bar. Click 'Windows 11/10 (x64)' to download.
+
+![image](https://github.com/user-attachments/assets/03d2335e-2275-4a69-b1e2-f83df82c6aa0)
+
+- Open file when completed.
+
+![image](https://github.com/user-attachments/assets/1a281c8c-4b43-4ee9-9edc-36d7f686d46a)
+
+- Setup Language and click 'OK'.
+
+![image](https://github.com/user-attachments/assets/b221a58f-bfce-48dc-bc83-6f21a443e181)
+
+- Click Next -> Install.
+
+![image](https://github.com/user-attachments/assets/6d469395-ffc9-48b2-bf88-7e180336f8f8)
+
+![image](https://github.com/user-attachments/assets/c9df43eb-5c93-43da-896e-3b0b88e87c62)
+
+- Sign into Proton VPN.
+
+![image](https://github.com/user-attachments/assets/1edae9b9-eba3-43f8-b917-201871d6edcc)
+
+- We're now logged into the Proton VPN client.
+
+![image](https://github.com/user-attachments/assets/3490518f-c558-4b20-8dc3-ce4ef98e9693)
+
+- Click 'Connect' to be protected by a new random VPN server from a different country (such as Japan).
+- Now when we browse the internet it should look like our traffic is coming from our random VPN server.
+
+![image](https://github.com/user-attachments/assets/07fc5adb-1379-4e53-842a-920f2010f517)
+
+6. Changed IP address location.
+
+- Go onto https://whatismyipaddress.com/ and observe how your IP addresses have changed.
+
+![image](https://github.com/user-attachments/assets/02f15157-7fde-47a0-aa54-076261400793)
+
+- Try browsing to Google, Disney, Netflix, and/or Amazon and see if there is anything different about the sites in relation to the location of your VPN server. For example, the language or URL may be different.
+
+![image](https://github.com/user-attachments/assets/b8c8a39d-fe22-4565-8e8d-1445873a2082)
 
 
-(Sign up for ProtonVPN and test the VPN connection)
 
-4. On your actual computer, sign up for the free version of Proton VPN https://account.protonvpn.com/signup?plan=free&language=en  
-
-5. Back within your VM, download the Proton VPN client
-
-- Login to the VPN (https://account.protonvpn.com/login) and choose a VPN server in yet another country (such as Japan)
-
-- Browse to https://whatismyipaddress.com/  and take note of this in a text file
-
-6. Try browsing to Google, Disney, and/or Amazon and see if there is anything different about the sites in relation to the location of your VPN server. For example, the language or URL may be different
