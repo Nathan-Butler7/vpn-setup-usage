@@ -36,13 +36,13 @@ Browse to https://whatismyipaddress.com/ FROM WITHIN YOUR OWN MACHINE and take n
 2. Creating Resource Groups and Virtual Machines.
 Resource Group:
 
-- To create a Resource Group, go to the Azure Portal. In the middle of the homepage under 'Azure Services', click on 'Resource groups' and then select 'Create' to begin the process'.
+- To create a Resource Group, go to the Azure Portal. In the middle of the homepage under 'Azure Services', click 'Resource groups' and then select 'Create' to begin the process'.
 
 ![Screenshot 2025-05-02 161517](https://github.com/user-attachments/assets/f2711179-31d1-44eb-9409-53abcdce0d6d)
 
-- All rescources in a subsciption are billed together so leave that as default.
-- Resource group name can be named to your desire. I will call mine "vpn-test".
-- When selecting a resource group region, it's recommended that you select a location close to where your control operations originate.
+- All resources in a subscription are billed together so leave that as default.
+- Resource group name names can be named according to your desire. I will call mine a "vpn-test".
+- When selecting a resource group region, selecting a location close to where your control operations originate is recommended.
 - Click 'Review + create' -> 'Create'.
 
 ![image](https://github.com/user-attachments/assets/5e9e1f16-b865-447c-a101-1bd5bd38ac7a)
@@ -60,13 +60,13 @@ Virtual Machines:
 
 ![image](https://github.com/user-attachments/assets/ea4d5673-02be-4eb2-b460-33de41111564)
 
-- For Image, select 'Windows 10 Pro version 22H2 - x64 Gen2'.
-- Recommended for 'Size' you utilise "Standard_D2s_v5 - 2 vcpus, 8 GiB memory".
+- Select 'Windows 10 Pro version 22H2 - x64 Gen2' for Image
+- Recommended for 'Size' you utilize "Standard_D2s_v5 - 2 vcpus, 8 GiB memory".
 - For 'Administrator Account' create your Username "labuser" and password can be anything. e.g; "CyberLab123!".
 
 ![image](https://github.com/user-attachments/assets/0cb4f6c8-54c9-4875-8155-47e586a91ce2)
 
-- Be sure to tick the box for eligibily of a windows liscence.
+- Be sure to tick the box for eligibility for a Windows license.
 - Click 'Review + Create'.
 
 ![Screenshot 2025-05-11 175807](https://github.com/user-attachments/assets/c5e52f58-a5e3-4edf-b608-1ecf19dfd430)
@@ -80,16 +80,16 @@ Virtual Machines:
 
 ![Screenshot 2025-05-06 141743](https://github.com/user-attachments/assets/fde070e8-0ded-4823-ad8d-bc0a4b8bb840)
 
-- Search up "Virtual Machines" and click on it, there you will discover your Virtual Machine.
+- Search "Virtual Machines" and click on it, there you will discover your Virtual Machine.
 
 ![image](https://github.com/user-attachments/assets/1d262933-4de4-443a-82fa-b6e6f42943bd)
 
 3. Log into the VM with Remote Desktop.
 
-- On your PC, click the Windows 'start' icon to open up the menu and search up "Remote Desktop Connection".
-- If using Mac, install Microsoft Remote Desktop.
-- Copy windows VM Public IP address and paste it into the Remote Desktop Connection.
-- Click 'Show Options' and put in the user name for the windows VM (labuser).
+- On your PC, click the Windows 'start' icon to open up the menu and search "Remote Desktop Connection".
+- If using a Mac, install Microsoft Remote Desktop.
+- Copy the Windows VM Public IP address and paste it into the Remote Desktop Connection.
+- Click 'Show Options' and put in the user name for the Windows VM (labuser).
 - Click 'connect'.
 - Insert the password then click 'ok'.
 - Click 'Yes' to continue.
@@ -121,7 +121,7 @@ Click 'Download for Windows' and it will open a bar. Click 'Windows 11/10 (x64)'
 
 ![image](https://github.com/user-attachments/assets/03d2335e-2275-4a69-b1e2-f83df82c6aa0)
 
-- Open file when completed.
+- Open the file when completed.
 
 ![image](https://github.com/user-attachments/assets/1a281c8c-4b43-4ee9-9edc-36d7f686d46a)
 
@@ -135,7 +135,7 @@ Click 'Download for Windows' and it will open a bar. Click 'Windows 11/10 (x64)'
 
 ![image](https://github.com/user-attachments/assets/c9df43eb-5c93-43da-896e-3b0b88e87c62)
 
-- Sign into Proton VPN.
+- Sign in to Proton VPN.
 
 ![image](https://github.com/user-attachments/assets/1edae9b9-eba3-43f8-b917-201871d6edcc)
 
@@ -150,11 +150,11 @@ Click 'Download for Windows' and it will open a bar. Click 'Windows 11/10 (x64)'
 
 6. Changed IP address location.
 
-- Go onto https://whatismyipaddress.com/ and observe how your IP addresses have changed.
+- Go to https://whatismyipaddress.com/ and observe how your IP addresses have changed.
 
 ![image](https://github.com/user-attachments/assets/02f15157-7fde-47a0-aa54-076261400793)
 
-- Try browsing to Google, Disney, Netflix, and/or Amazon and see if there is anything different about the sites in relation to the location of your VPN server. For example, the language or URL may be different.
+- Try browsing Google, Disney, Netflix, and/or Amazon and see if there is anything different about the sites in relation to the location of your VPN server. For example, the language or URL may be different.
 
 ![image](https://github.com/user-attachments/assets/b8c8a39d-fe22-4565-8e8d-1445873a2082)
 
